@@ -3,7 +3,7 @@
 <img src="programming_language.svg">
 
 # ts_landsat_hidroelectrica
-Generation of an animation gif with landsat images
+Generation of an animation gif with landsat  7 images
 
 <div style="text-align:center"> 
 <p align="center">
