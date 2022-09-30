@@ -1,6 +1,4 @@
-<img src="maintainer.svg">
-<img src="plattform.svg">
-<img src="programming_language.svg">
+<img src="plattform.svg"> <img src="programming_language.svg">
 
 # ts_landsat_hidroelectrica
 Generation of an animation gif with landsat  7 images
@@ -18,11 +16,20 @@ More information regarding Google Earth Engine:
 https://developers.google.com/earth-engine 
 
 ## Usage
+You can use the code to generate time series animation in gif format for landsat 7 imagery. There is other dataframes
+such as Sentinel-2 to use them for the generation of timelapse animations. With changes on the image collection or 
+the geometry you can make use of this code for your own project. This code has been developed by creating two-year
+composites on Landsat-7 imagery, in a false color composite using the near infrared, red and green bands. 
+This animation was created as support for the blog post on my website:<br>
+https://roger-almengor.xyz/?p=447
 
-### Explanation of the code
+## Dependencies
+This timelapse uses the *text* package developed by  Gennadii Donchyts, to add text on every frame on the animation. 
+sers/gena/packages:text 
+https://gis.stackexchange.com/users/99557/gennadii-donchyts
 
 ## Support
-Support is welcomed. I also can give you support in case bugs arise. Just write an E-Mail, or raise the issue on GitLab.
+Support is welcomed. I also can give you support in case bugs arise. Just write an E-Mail, or raise the issue on GitHub.
 
 ## Contributing
 Fork the repository if you need to develop some other functionalities, or modify the already implemented. 
@@ -32,9 +39,9 @@ that.
 
 ## Authors and acknowledgment
 Roger Almengor González (developer and mantainer)
-E-Mail: rogeralmengor@gmail.com 
-E-Mail2: thebeautyofthepixel@gmail.com
-E-Mail3: almrog16@gmail.com
+* E-Mail: rogeralmengor@gmail.com 
+* E-Mail2: thebeautyofthepixel@gmail.com
+* E-Mail3: almrog16@gmail.com
 
 ## License
 MIT
